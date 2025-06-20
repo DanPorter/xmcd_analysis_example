@@ -48,6 +48,9 @@ More information about the background subtraction options is available in [xmcd_
 ### Examples
 The [xmcd_analysis_example.py](xmcd_analysis_example.py) script uses a suite of functions to generate the NXxas-like NeXus files and the final XMCD file.
 
+The [xmcd_analysis_example.ipynb](xmcd_analysis_example.ipynb) jupyter notebook provides 
+further explanation of the analysis steps and the Spectra object model used.
+
 
 ### NeXus Files
 XAS energy scans converted into NeXus file with ~NXxas application definition.
