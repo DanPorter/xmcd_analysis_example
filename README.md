@@ -43,10 +43,10 @@ The examples use an automatic fitted background composed of step models and a po
 
 The step edges are initially chosen by looking for typical L-edges in the energy window.
 
-More information about the background subtraction options is available in ()[xmcd_analysis_functions/spectra_analysis.py]
+More information about the background subtraction options is available in [xmcd_analysis_functions/spectra_analysis.py](xmcd_analysis_functions/spectra_analysis.py)
 
 ### Examples
-The ()[xmcd_analysis_example.py] script uses a suite of functions to generate the NXxas-like NeXus files and the final XMCD file.
+The [xmcd_analysis_example.py](xmcd_analysis_example.py) script uses a suite of functions to generate the NXxas-like NeXus files and the final XMCD file.
 
 
 ### NeXus Files
@@ -57,14 +57,14 @@ and has an associated NXdata containing the signal and background for both chann
 
 | Polarisation | Original Scan   | Converted Scan                                                                                                                                                                             |
 |--------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CR           | data/236463.dat | (236463_nxxas.nxs)[https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236463_nxxas.nxs] |
-| CL           | data/236464.dat | (236464_nxxas.nxs)[https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236464_nxxas.nxs] |
-| CL           | data/236465.dat | (236465_nxxas.nxs)[https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236465_nxxas.nxs] |
-| CR           | data/236466.dat | (236466_nxxas.nxs)[https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236466_nxxas.nxs] |
-| CR           | data/236467.dat | (236467_nxxas.nxs)[https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236467_nxxas.nxs] |
-| CL           | data/236468.dat | (236468_nxxas.nxs)[https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236468_nxxas.nxs] |
-| CL           | data/236469.dat | (236469_nxxas.nxs)[https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236469_nxxas.nxs] |
-| CR           | data/236470.dat | (236470_nxxas.nxs)[https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236470_nxxas.nxs] |
+| CR           | data/236463.dat | [236463_nxxas.nxs](https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236463_nxxas.nxs) |
+| CL           | data/236464.dat | [236464_nxxas.nxs](https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236464_nxxas.nxs) |
+| CL           | data/236465.dat | [236465_nxxas.nxs](https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236465_nxxas.nxs) |
+| CR           | data/236466.dat | [236466_nxxas.nxs](https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236466_nxxas.nxs) |
+| CR           | data/236467.dat | [236467_nxxas.nxs](https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236467_nxxas.nxs) |
+| CL           | data/236468.dat | [236468_nxxas.nxs](https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236468_nxxas.nxs) |
+| CL           | data/236469.dat | [236469_nxxas.nxs](https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236469_nxxas.nxs) |
+| CR           | data/236470.dat | [236470_nxxas.nxs](https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2F236470_nxxas.nxs) |
 
 Each polarisation is measured 4 times. The background-subtracted spectra are averaged for each polarisation
 and subtracted to provide the XMCD spectra, stored in a separate file. 
@@ -72,4 +72,4 @@ This NeXus file follows a similar structure to the NXxas files above, but also c
 giving the integrated XMCD sum rules. 
 Please note the methodology used for the sum rules here is not very accurate and needs refining.
 
- - (236464_nxxas.nxs)[https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2Fxmcd.nxs]
+ - [236464_nxxas.nxs](https://myhdf5.hdfgroup.org/view?url=https%3A%2F%2Fgithub.com%2FDanPorter%2Fxmcd_analysis_example%2Fblob%2F69a249b1bd51acb50412176e0512806be91b15f0%2Fxmcd.nxs)
