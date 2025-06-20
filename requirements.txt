@@ -1,0 +1,5 @@
+numpy~=2.2.2
+matplotlib~=3.10.0
+h5py~=3.12.1
+typing_extensions~=4.12.2
+lmfit~=1.3.2

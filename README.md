@@ -1,8 +1,10 @@
 # xmcd_analysis_example
 Example data analysis of xas spectra from Diamond Light Source.
 
-Includes generation of NeXus files for XAS spectra from beamline i06-1 
-and the processing of these spectra to calculate the XMCD spectra.
+Includes generation of NeXus files with approximately the NXxas application definition,
+where each file contains multiple channels (TEY, TFY) and multiple processing steps.
+Example data is provided for the Fe-L3,2 edge in multiple sets of circular polarised 
+XAS spectra from beamline i06-1. These spectra are processed to calculate the XMCD spectra.
 
  - Author: Dan Porter
  - Diamond Light Source Ltd
