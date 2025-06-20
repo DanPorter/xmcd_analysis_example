@@ -85,6 +85,7 @@ def add_nxbeam(root: h5py.Group, name: str, incident_energy_ev: float, polarisat
     add_nxfield(beam, 'incident_wavelength', wl, units='angstrom')
     pol_stokes = polarisation_label_to_stokes(polarisation_label)
     add_nxfield(beam, 'incident_polarization_stokes', pol_stokes)
+    add_nxfield(beam, 'polarization_label', polarisation_label)
     if beam_size_um is not None:
         add_nxfield(beam, 'extent', beam_size_um, units='μm')
     return beam

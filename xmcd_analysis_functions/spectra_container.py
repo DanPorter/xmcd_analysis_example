@@ -16,6 +16,7 @@ from .spectra import Spectra, SpectraSubtraction, XasMetadata
 
 
 def spectra_method_decorator(target_cls):
+    """Add methods from Spectra to SpectraContainer"""
     for name, method in inspect.getmembers(Spectra, predicate=inspect.isfunction):
         if name in ['divide_by_signal_at_energy', 'divide_by_preedge', 'divide_by_postedge', 'norm_to_peak',
                       'norm_to_jump', 'remove_background', 'auto_edge_background']:
@@ -105,6 +106,7 @@ class SpectraContainer:
         nw.add_nxfield(entry, 'mode', self.metadata.default_mode)
         nw.add_nxfield(entry, 'element', self.metadata.element)
         nw.add_nxfield(entry, 'edge', self.metadata.edge)
+        nw.add_nxfield(entry, 'polarization_label', self.metadata.pol)
         if default:
             nexus.attrs['default'] = name
         return entry
