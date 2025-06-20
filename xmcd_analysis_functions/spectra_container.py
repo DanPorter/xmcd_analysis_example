@@ -1,4 +1,13 @@
+"""
+SpectraContainer object
 
+=== DATA MODEL ===
+spectra = Spectra(energy, signal, mode, process)
+metadata = XasMetadata(scan_no=1234, default_mode='tey', sample_name='Fe')
+scan = SpectraContainer('name', {'mode': spectra}, metadata=metadata)
+scan2 = scan + 2  # add 2 to signal of each contained mode
+scan.remove_background()  # apply operation to each contained mode, store previous version in scan.parents
+"""
 
 import inspect
 from functools import wraps

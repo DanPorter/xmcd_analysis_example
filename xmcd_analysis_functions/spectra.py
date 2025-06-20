@@ -1,13 +1,12 @@
 """
-Spectra scan
+Spectra object
 
 === DATA MODEL ===
-
-Sn = Spectra(energy, signal, mode, process)
-D = Scan(Sn, Sn, Metadata, processing_steps)
-
-M = MultiScan(D, D, D, Metadata, processing_steps)
-S = Subtraction(M1, M2)
+spectra = Spectra(energy, signal, mode, process)
+spectra2 = spectra + 2  # adds 2 to signal
+spectra3 = spectra.norm_to_peak()
+average_spectra = spectra2 + spectra3  # averages spectra signals at interpolated energies
+subtracted_spectra = spectra2 - spectra3  # subtracts signals at interpolated energies
 """
 from __future__ import annotations
 
